@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Katalog - Kerajiana Raja</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a href="#" class="logo">
+      <img src="LogoPutra.png" alt="logo">
+      <div class="firstname">Kerajinan Raja</div>
+      </a>
+      <ul class="link">
+          <li><a href="home.html" class="active">Home</a></li>
+          <li><a href="index.html">Produk</a></li>
+          <li><a href="Keranjang.html">Keranjang</a></li>
+          <li><a href="kontak.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Daftar Produk </h2>
+    <div class="produk-container">
+      <!-- Contoh produk -->
+      <div class="produk-card">
+        <img src="Produk01.png" alt="Box Tisu">
+        <h3>Box Tisu</h3>
+        <p>Rp 28.000</p>
+        <button onclick="tambahKeKeranjang('Box Tisu', 28000, 'keranjang-anyaman')" class="saklar">Tambah ke Keranjang</button>
+      </div>
+
+      <div class="produk-card">
+        <img src="produk02.png" alt="Tas Rotan">
+        <h3>Tas Rotan</h3>
+        <p>Rp 55.000</p>
+        <button onclick="tambahKeKeranjang('Tas Rotan', 55000, 'keranjang-anyaman')" class="saklar">Tambah ke Keranjang</button>
+      </div>
+
+      <div class="produk-card">
+        <img src="produk13.png" alt="Toples">
+        <h3>Toples</h3>
+        <p>Rp 35.000</p>
+        <button onclick="tambahKeKeranjang('Toples', 35000, 'keranjang-anyaman')" class="saklar">Tambah ke Keranjang</button>
+      </div>
+
+      <div class="produk-card">
+        <img src="produk06.png" alt="Nampan">
+        <h3>Nampan Kotak</h3>
+        <p>Rp 23.000</p>
+        <button onclick="tambahKeKeranjang('Nampan', 23000, 'keranjang-anyaman')"class="saklar">Tambah ke Keranjang</button>
+      </div>
+
+      <div class="produk-card">
+        <img src="produk11.png" alt="Piring Inke">
+        <h3>Piring Ingke</h3>
+        <p>Rp 22.500</p>
+        <button onclick="tambahKeKeranjang('Piring Ingke', 22500, 'keranjang-anyaman')"class="saklar">Tambah ke Keranjang</button>
+      </div>
+
+      <div class="produk-card">
+        <img src="produk12.png" alt="Keranjang">
+        <h3>Keranjang</h3>
+        <p>Rp 20.500</p>
+        <button onclick="tambahKeKeranjang('Keranjang', 20500, 'keranjang-anyaman')"class="saklar">Tambah ke Keranjang</button>
+      </div>
+
+      <div class="produk-card">
+        <img src="produk16.png" alt="Tudung Saji">
+        <h3>Tudung Saji</h3>
+        <p>Rp 24.000</p>
+        <button onclick="tambahKeKeranjang('Tudung Saji', 24000, 'keranjang-anyaman')"class="saklar">Tambah ke Keranjang</button>
+      </div>
+
+      <div class="produk-card">
+        <img src="produk19.png" alt="Tas Batik Rotan">
+        <h3>Tas Batik Rotan</h3>
+        <p>Rp 40.000</p>
+        <button onclick="tambahKeKeranjang('Tas Batik Rotan', 40000, 'keranjang-anyaman')"class="saklar">Tambah ke Keranjang</button>
+      </div>
+
+      <div class="produk-card">
+        <img src="produk09.png" alt="Asbak">
+        <h3>Asbak</h3>
+        <p>Rp 12.000</p>
+        <button onclick="tambahKeKeranjang('asbak', 12000, 'keranjang-anyaman')"class="saklar">Tambah ke Keranjang</button>
+      </div>
+
+      <div class="produk-card">
+        <img src="produk08.png" alt="Nampan Bulat">
+        <h3>Nampan Bulat</h3>
+        <p>Rp 14.500</p>
+        <button onclick="tambahKeKeranjang('Nampan Bulat', 14500, 'keranjang-anyaman')"class="saklar">Tambah ke Keranjang</button>
+      </div>
+
+
+
+
+
+      <!-- Tambah produk lain di sini -->
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
